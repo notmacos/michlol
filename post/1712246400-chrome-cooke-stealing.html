@@ -1,0 +1,54 @@
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>mich</title>
+        <meta name="description" content="">
+        <meta name="keywords" content="mich">
+        <meta property="og:title" content="mich">
+        <meta property="og:description" content="">
+        <meta property="og:url" content="https://mich.lol">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="https://mich.lol/assets/og.png">
+        <link rel="stylesheet" href="../assets/c.css">
+        <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>mich</h1>
+            <nav>
+                <a href="/home">home</a>
+                >
+                <a href="/blog">blog</a>
+                >
+                <a href="/contact">contact</a>
+                >
+                <a href="/donate">donate</a>
+            </nav>
+        </header>
+
+        <h1>Google Chrome's New Protection Against Cookie-Stealing</h1>
+        <sup>1712246400</sup>
+        <hr>
+
+        <p>Google recently <a alt="Chromium Blog Post About DBSC" href="https://blog.chromium.org/2024/04/fighting-cookie-theft-using-device.html">announced</a> 
+            a new defense against cookie-stealing attacks called Device Bound Session Credentials (DBSC). The project is 
+            being publicly developed on <a alt="GitHub for DBSC" href="https://github.com/WICG/dbsc">GitHub</a>.</p>
+
+        <h3>TL;DR</h3>
+        <p>DBSC attempts to bind session cookies to the device it was originally for. Effectively making the cookie useless, in theory, to 
+            attackers. It would use a device-bound key pair, where the private key is stored on the device and a public key is sent to
+            the server. The server then uses the public key to verify that the device has possession of the key.</p>
+
+        <h3>Taking a Deeper Dive</h3>
+        <h4>The Problem with Cookies</h4>
+        <p>Right now, cookies can be exfiltrated from a device with malware or social engineering and be used for hijacking the user's 
+            session. If you have kid's that had their Roblox account hacked, they were likely a victim of of this 
+            <a alt="Defend Yourself Against Cookie Stealing" href="https://devforum.roblox.com/t/how-do-i-defend-against-traceless-account-hacking-method-cookie-logging/2568195">common attack.</a></p>
+        <p>Your best protection against cookie-stealing is to be safe on the internet by not downloading unknown files or sending your 
+            browser's data to anyone online (even if they promise free Robux).</p>
+    </body>
+
+</html>
