@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TGD28SEFJK"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-TGD28SEFJK');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pass Generator</title>
+    <style>
+        body {
+            background-color: #f8f8f8;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            /* Modern font for the disclaimer */
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            border-radius: 10px;
+            /* Rounded corners for the button */
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        #disclaimer {
+            text-align: center;
+            margin-top: 20px;
+            color: #555;
+        }
+
+        #privacy-link {
+            margin-top: 20px;
+            color: #007bff;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <button onclick="generatePass()">Generate Pass</button>
+    <p id="disclaimer">Use at your own risk.</p>
+
+    <a href="privacy-policy.html" id="privacy-link">Privacy Policy</a>
+
+    <script>
+        function generatePass() {
+            window.location.href = "https://transit.wvwroblox.com/pass";
+        }
+    </script>
+</body>
+
+</html>
